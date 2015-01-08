@@ -86,3 +86,71 @@
 		// body
 		// body
 	}
+
+// ------------------------------------------------------------------
+// Lecture 2
+
+// Example 1
+
+	class Car{
+		public make = $make;
+		public model = $model;
+		public color = $color;
+	
+		function__construct($make,$model,$color) {
+			$this­>make = $make;
+			$this­>model = $model;
+			$this­>color = $color;
+		}
+
+		function getCar() {
+			return "{$this->Make}" . "{$this->Color}";
+		}
+	}
+
+	class Dog{
+		public name = $name;
+		public lastname = $lastname;
+		public bread = $bread;
+	
+		function__construct($name,$lastname,$bread) {
+			$this­>name = $name;
+			$this­>lastname = $lastname;
+			$this­>bread = $bread;
+		}
+
+		function getDog() {
+			return "{$this->Name}" . "{$this->Bread}";
+		}
+	}
+
+	class Tree{
+		public type = $type;
+		public color = $color;
+		public origin = $origin;
+	
+		function__construct($type,$color,$origin) {
+			$this­>type = $type;
+			$this­>color = $color;
+			$this­>origin = $origin;
+		}
+
+		function getTree() {
+			return "{$this->type}" . "{$this->type}";
+		}
+	}
+
+	// Example 2
+
+		$car1 = new Car("Mercedes-Benz", "S500", "Black");
+		print "Car 1:{$car1->getMake()}";
+
+		$dog1 = new Dog("Rocky", "Nortikyan", "Gampr");
+		print "bread 1:{$dog1->getBread()}";
+
+		$tree1 = new Tree("Bonzai", "Green", "Japan");
+		print "tree 1:{$tree1->getOrigin()}";
+
+		
+
+
