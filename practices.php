@@ -143,14 +143,12 @@
 	// Example 2
 
 		$car1 = new Car("Mercedes-Benz", "S500", "Black");
-		print "Car 1:{$car1->getMake()}";
+		print Car 1:{$car1->getMake()};
 
 		$dog1 = new Dog("Rocky", "Nortikyan", "Gampr");
-		print "bread 1:{$dog1->getBread()}";
+		print bread 1:{$dog1->getBread()};
 
 		$tree1 = new Tree("Bonzai", "Green", "Japan");
-		print "tree 1:{$tree1->getOrigin()}";
-
-		
-
+		print tree 1:{$tree1->getOrigin()};
+// ------------------------------------------------------------------
 
